@@ -2,9 +2,6 @@ body {
     font-family: "Century Gothic", 'Lato', sans-serif;
 }
 
-a {
-text-decoration: none;
-}
 
 .et-hero-tabs,
 .et-slide {
@@ -12,7 +9,6 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-height: 100vh;
 position: relative;
 background: #ccb6b6;
     text-align: center;
@@ -43,22 +39,6 @@ z-index: 10;
 &--top {
     position: fixed;
     top: 0;
-}
-}
-
-.et-hero-tab {
-display: flex;
-justify-content: center;
-align-items: center;
-flex: 1;
-color: #752727;
-letter-spacing: 0.1rem;
-    transition: all 0.5s ease;
-    font-size: 0.8rem;
-  &:hover {
-        color:rgb(139, 11, 11);
-  background: rgba(19, 61, 99, 0.8);
-        transition: all 0.5s ease;
 }
 }
 
