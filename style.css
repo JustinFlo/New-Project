@@ -1,0 +1,80 @@
+body {
+    font-family: "Century Gothic", 'Lato', sans-serif;
+}
+
+a {
+text-decoration: none;
+}
+
+.et-hero-tabs,
+.et-slide {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+position: relative;
+background: #ccb6b6;
+    text-align: center;
+    padding: 0 2em;
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    letter-spacing: 1rem;
+}
+h3 {
+    font-size: 5rem;
+    letter-spacing: 0.3rem;
+    opacity: 0.6;
+    color: #010b2c;
+}
+}
+
+.et-hero-tabs-container {
+display: flex;
+flex-direction: row;
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 80px;
+box-shadow: 0 0 20px rgba(145, 58, 58, 0.1);
+background: #b98585;
+z-index: 10;
+&--top {
+    position: fixed;
+    top: 0;
+}
+}
+
+.et-hero-tab {
+display: flex;
+justify-content: center;
+align-items: center;
+flex: 1;
+color: #752727;
+letter-spacing: 0.1rem;
+    transition: all 0.5s ease;
+    font-size: 0.8rem;
+  &:hover {
+        color:rgb(139, 11, 11);
+  background: rgba(19, 61, 99, 0.8);
+        transition: all 0.5s ease;
+}
+}
+
+
+
+@media (min-width: 800px) {
+.et-hero-tabs,
+.et-slide {
+h1 {
+    font-size: 3rem;
+}
+h3 {
+    font-size: 1rem;
+}
+}
+.et-hero-tab {
+    font-size: 1rem;
+}
+}
